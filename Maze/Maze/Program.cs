@@ -85,7 +85,7 @@ class Program
             for (int j = 0; j < map[i].Length; j++)
             {
                 if (i == playerX && j == playerY)
-                    Console.Write("●");
+                    Console.Write("*");
                 else
                     Console.Write(map[i][j]);
             }
